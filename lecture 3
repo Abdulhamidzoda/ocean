@@ -1,0 +1,214 @@
+                                                                 Java Script 
+                                                                  Lecture 3
+
+What is a Method in java script? 
+chizi tayora methode megan misol mat.max yo min hamiyora methode megan 
+
+Create string in java script 
+3 namud mesha misol 
+1.double stirng
+2.single string
+3.backtrics
+
+                                                        JAVA SCRIPT STRING METHODS 
+➢ charAt() ➢ slice()
+➢ concat()
+➢ trim() ➢ substring()
+➢ includes() ➢ split()
+➢ indexOf()
+➢ replace() ➢ toString()
+➢ replaceAll() ➢ toLowerCase()
+➢ repeat() ➢ toUpperCase()
+to yaake az darkoriyoshan bo bisyoran  
+ 
+                                                        JavaScript String method charAt()
+                                                        
+The charAt() method returns the character at a specified index (position) in a string.
+The index of the first character is 0, the second 1, ...
+The index of the last character is string length - 1 .
+
+                                                        JavaScript String method concat()
+                                                        
+2 chiza mechaspona misol 
+let a="sator";
+let b="kator"
+console.log(a.concat(" ",b)
+output///sator kator
+
+
+
+                                                          JavaScript String method replace()
+
+replace johoshona alish mekna misol
+let a="sator";
+let b="kator"
+console.log(a.replace("sator",Qrbon)
+i yatasha mekna misol agar 2 ta sator bosha 1 tash mekna fakat tamom 
+                                                            JavaScript String method replaceAll()
+                                                            
+i bosha hamasha alshi mekna misol agar 2 ta ME bosha megira alshi mekna hardsha 
+                                                                     
+                                                             JavaScript String method split()
+ i bosha hamu texta array borin mekna 
+ misol 
+ let a="sator";
+let b="kator"
+console.log(a.split());
+hamasha da array megira  
+agar forat adelna adelna gira (" ") mekshoysha ["satro","kator"] megira 
+agar bo bgi katorsha nagi (" ",2) mekni namebrorash 
+
+                                                             JavaScript String method substring(start,end)
+
+The substring() method extracts characters, between two indices (positions), from a string, and
+returns the substring.
+The substring() method extracts characters from start to end (exclusive).
+The substring() method does not change the original string.
+If start is greater than end, arguments are swapped: (4, 1) = (1, 4).
+Start or end values less than 0, are treated as 0
+agar (-sash tiem hamu hello world xcha mebrora 
+
+karotkish hamiyay ki misol megish ay kjo to kjora bgi da misol agar "hello world bosha" megi 
+consol.log(a.substirng(1,13);
+bad i ay "e" to "g"-ra megira 
+
+                                                            JavaScript String method slice(start, end)
+
+The slice() method returns a shallow copy of a portion of an array into a new array object
+selected from start to end ( end not included) where start and end represent the index of items
+in that array 
+slice minusa kabul mekna digarish namekna ba i slice nav bromadagiyay 
+                                                            JavaScript String method toLowerCase()
+i hamu chize hast ki hamai chize ki da druni stringay mayda mekna misol:
+let a="NAXONSH"
+let b=a.tolawrcase();
+console.log(b);
+
+
+                                                            JavaScript String method toUpperCase()
+
+
+he toUpperCase() method converts a string to uppercase letters, using current locale.
+The toUpperCase() method does not change the original strin 
+
+krchi ixe giram agar antonimi to lawer case hami chize ki da drni string hast hamura kalon mekna 
+
+
+                                                            JavaScript String method trim()
+agar ha 2 taraf proble monda bosha probelosh megira nest mekna misol:
+let a="       davayyyyyyyyeeeeeeeeeeeee "
+let b=a.trim();
+console.log(b)
+tamomo                        
+                                                          JavaScript String method includes()
+include i da bar giri mesha bad true false meta fakat misol:
+let a="davayee sator";
+let b=a.inlcludes("davayeeeeee");
+console.log(b);
+output/// true baroi ki dora hami kalimara. 
+  
+                                                           JavaScript String method toString()
+                                                           
+The toString() method returns a string representing the object.
+By default toString() takes no parameters
+ 
+ krchi ba stirng megardona yagon numbera  misol:
+ 
+ let a=99;
+ console.log(typeOff(a))
+ output/// number mebrora 
+ 
+  let a=99;
+let b=a.tostirng();
+console.log(b);
+output /// stirng mebrorasha 
+                                                           JavaScript String method  indexOf()
+
+i indexa mega misol agar:
+let a="hello world softclube";
+let b=a.indexof("world")
+console.log(b)
+output /// 5 mebrora;
+                                                           JavaScript String method repeat()
+
+krchi i reapit mekna takror mekna misol:
+
+let a="hello world ";
+let b=a.repeat(3);
+console.log(b)
+output/// hello world hello world hello world;
+
+
+
+                                                             JavaScript String method at()
+
+at xoli (-) xoliram megira  i new bromadagiyay
+let a="hello world"
+console.log(a.at(-1));
+output /// d mebrora 
+
+
+                                                            JavaScript Number methods Math.round(),ceil(),floor()
+                                                         
+ krchi iyo biblatekahan misol math.round akrugliyat mekna misol 1.2 bosha 1 mebrora 
+ math cell 2 mebrora 
+ 
+ let a=1.6;
+ let b=a.math.round()
+ console.log(b)
+ output /// 2;
+ 
+ let a=1.2;
+ let b=a.math.ceil()
+ console.log(b)
+ output /// 2;
+ 
+ let a=1.2;
+ let b=a.math.flor()
+ console.log(b)
+ output /// 1 mesha;
+                                                            JavaScript Number methods Math.max() and Math.min()
+let a=[1,2,3,4,5]
+let b=a.math.max()
+console.log(b);
+output /// 5;
+
+let a=[1,2,3,4,5]
+let b=a.math.min()
+console.log(b);
+output /// 1;
+                                                            JavaScript Number methods Math.pow() and Math.sqrt()
+ 
+
+The pow() method computes the power of a number by raising the second argument
+to the power of the first argument.
+
+let a=math.pow(2,2);
+console.log(a)
+output /// 4;
+
+let a=math.sqrt(2);
+console.log(a)
+output /// 2;
+
+                                                            JavaScript String method Math.abs() and Math.random()
+let a=math.roundom()*5;
+console.log(a)
+output /// chize forash mebrora;                                                            
+                                      
+
+let a=math.abs(-2);
+console.log(a)
+output /// 2;
+                                                             JavaScript Number method isNaN()
+                                                             
+The isNaN() function checks if a value is NaN (Not-a-Number) or not misol meprsisha 
+megi hami nanay yo ne 
+bad atvett meta
+
+let a=Nan;
+let b=1;
+let result=isNan(a)
+let result2=isNan(b)
+console.log(result);
+console.log(result2);                                                          
