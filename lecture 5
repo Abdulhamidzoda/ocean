@@ -1,0 +1,86 @@
+                                                   Array in JavaScript
+An array is an object that holds values (of any type) not particularly in named properties/keys, 
+but rather in numerically indexed position
+In JavaScript, an array is an ordered list of values. Each value is called an element specified by 
+an index. ... First, an array can hold values of mixed types.
+An array is a special variable, which can hold more than one value:
+
+
+                                                  CHANGE ELEMENTS IN ARRAY
+You can also add elements or change the elements by accessing the index value
+Suppose, an array has two elements. If you try to add an element at index 3 (fourth 
+element), the third element will be undefined.
+
+pop() forEach() join()
+indexOf()
+concat()
+find()
+shift() map() includes()
+array methods
+toString()
+push()
+reduce()
+splice()
+slice()
+filter()
+toReversed()
+unshift()
+toSorted()
+
+                                                          array method push 
+The push() method adds one or more elements to the end of an array and returns the
+new length of the array. 
+The element(s) to add to the end of the array.
+Syntax: push(element0, element1, /* … ,*/ elementN)
+                                                           array method pop
+                                                           
+ay oxiron delet mekna 
+The pop() method removes the last element from an array and returns that element. 
+This method changes the length of the array.
+
+                                                          array method unshift 
+ Syntax:
+The unshift() method adds one or more elements to the beginning of an array and
+returns the new length of the array. 
+unshift(element0, element1, /* … ,*/ elementN)
+ay aval ya chand elementa doxil mekna 
+                                   
+                                                            array method shift
+The pop() method removes the last element from an array and returns that element. 
+This method changes the length of the array.
+ay oxirn elementa delet mekna
+                                                      array method toString
+The toString() method returns a string representing the specified array and its
+elements. 
+A string representing the elements of the array.
+Syntax: toString()
+arraya ba string megardona 
+                                                      JavaScript array methods callbacks
+map()
+drni masivda misol sqrt sha mebrora yo pluse minus mekna itak dalee 
+
+forEach() i rangi loopay misola da drni elementoda yo uprcase yo lower case mekni
+
+find()  i krchi mekova drni arraya misol agar rakam bgem rakami ki megemsh mekova miyova meta 
+
+                                                       Method reduce 
+drni hamu arayda plus minus mekna i tak dale da 
+
+
+methode filt filt mekna drni arraya misol agar yagno array doshta boshem da drnish ya chanta nom yo rakam doshta boshem  farmonsh metem ki ay 15 
+bolora yov i mekova memonash 
+                                                        tosorted 
+ drni array sort mekna  misol:
+  let a=[9,6,2,1]
+  let b=a.tosorted((a,b)=>a-b;
+  console.log(b);
+  output /// 1,2,6,9
+   formulash a-b hay
+                                                   
+                                                          Method spread
+                                                          
+colene mekna massive va masivi glavnira namerasa 
+                                                         Method rest
+rakamoi porstoya massive mekna ;
+
+
